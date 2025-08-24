@@ -1,0 +1,13 @@
+callback logic concepts
+
+callback function is a function which is passed to another function as an argument to be executed later
+
+calling callback inside a callback in called callback Hello
+setimeout(() =>{
+    setimeout(() =>{
+        setimeout(() =>{
+
+        })
+    })
+})
+
